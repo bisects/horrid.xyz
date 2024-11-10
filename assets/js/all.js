@@ -1,12 +1,12 @@
 let counter = 0;
-let Title = 'eth.su';
+let Title = 'orrid.xyz';
 let direction = true;
 aniTitle = setInterval(function () {
     if (counter == Title.length) direction = false;
     if (counter == false) direction = true;
     counter = (direction == true) ? ++counter : --counter;
     newtitle = (counter == 0) ? "" : Title.slice(0, counter);
-    document.title =  'm' + newtitle;
+    document.title =  'h' + newtitle;
 }, 400)
 
 function off() {
